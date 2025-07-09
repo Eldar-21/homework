@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+.block {
+    background: #dbb5d0;
+    width: 1200px;
+    height: 500px;
+    border: 2px solid #000;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    overflow: auto;
+    ;
+
+
+}
+
+.blockchain {
+    max-width: 250px;
+    height: auto;
+    background: #bd926b;
+    padding: 15px 20px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid #000;
+    box-shadow: inset 0px 0px 10px black ;
+    display: inline-block;
+    opacity: .9;
+    margin-left: 3px
+
+
+
+}

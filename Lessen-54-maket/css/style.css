@@ -1,0 +1,209 @@
+body {
+    background: #181e34;
+    font-family: "Montserrat", "Arial", sans-serif;
+    /* font-size: 16px;
+    так как в наших обнуляющих стилях и так прописан font-size: 100% 
+    значит что он берет размер шрифта который прописан у его родителя,
+    а родитель html и родитель bodi - сам сайт, а на сайтах в большенстве случаев
+    font-size  и так 16рх 
+    а так обычно пишут font-size и размер шрифта */
+    /* font-weight: 400;  - по умолчанию*/
+    line-height: 150%;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 930px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* ======================================================================= */
+.header {
+    padding: 30px 0 36px;
+    /* padding-top: 30px;
+    padding-bottom: 36px; тоже самое что и сверху. */
+
+}
+
+.header-ineer {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    margin-left: auto;
+}
+
+.header-list {
+    display: flex;
+}
+
+.header-item {
+    margin-right: 30px;
+}
+
+.header-button {
+    border-radius: 100px;
+    background: #ffffff;
+    color: #2766ae;
+    padding: 14px 30px;
+    font-weight: 500;
+}
+
+/* ============================================================================
+Приветсьвующая секция */
+.hero {
+    background: url("../img/hero_bg.jpg") 10% 50% / cover no-repeat;
+    padding: 120px 0;
+}
+
+.hero-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.hero-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-text {
+    max-width: 436px;
+
+
+}
+
+.hero-text span {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #01a2cb;
+}
+
+.paragraph {
+    margin-bottom: 15px;
+}
+.hero-buttons {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    width: 100%;
+}
+.hero-button-one, .hero-button-two {
+    border-radius: 100px;
+    padding: 18px 30px;
+    /* text-align: center; не работает из за display: flex */
+    display: flex;
+    justify-content: center;
+}
+.hero-button-two img {  
+    margin-left: 4px;
+}
+.hero-button-one {
+    background: linear-gradient(180deg, #00a4cc 0%, #2766ae 100%);
+    
+}
+.hero-button-two {
+    background: linear-gradient(129deg, #00a4cc 0%, #2766ae 100%);
+}
+.botten {
+    margin-bottom: 10px;
+}
+/* ============================================================================= */
+.cards {
+    padding: 120px 0;
+}
+.cards-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.cards-text {
+    text-align: center;
+    max-width: 513px;
+    display: block;
+    margin: 0 auto 75px;
+}
+.cards-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2px;
+    margin-right: -28px;
+
+}
+.cards-flex-item {
+    max-width: 204px;
+    height: auto;
+    padding: 28px 20px;
+    border: 2px solid #176bae;
+    border-radius: 16px;
+    margin-bottom: 28px;
+    justify-content: center;
+    box-shadow: 4px 4px 13px 0 rgba(5, 13, 41, 0.76);
+    background: #197cb8;
+    text-align: center;
+    flex: 0 0 25%;
+    margin-right: 28px;
+}
+
+.cards-flex-title {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 22px;
+    
+}
+.botten-cards {
+    margin: 0 auto;
+    border-radius: 100px;
+    padding: 18px 30px;
+    max-width: 436px;
+    height: 56px;
+    
+}
+/* ================================================================================ */
+
+.footer {
+    border-top: 1px solid #323952;
+    padding: 60px 0;
+}
+.footer-inner {
+    display: flex;
+}
+
+.footer-desc a {
+    margin-bottom: 15px;
+    display: inline-block;
+/* .footer-desc img {
+    margin-bottom: 15px; */
+}
+.footer-desc {
+    max-width: 267px;
+    max-height: 159px;
+    margin-right: auto;
+}
+.footer-col {
+    max-width: 204px;
+    width: 100%;
+}
+.footer-col-title {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.footer-item {
+    margin-bottom: 10px;
+
+}
+.footer-col-margin {
+    margin-right: 28px;
+}
